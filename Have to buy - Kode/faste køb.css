@@ -1,0 +1,30 @@
+body {
+    background-color: #23A0DE;
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #bfff85;
+    background-size: 100vw auto;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #23A0DE;
+    background-size: 100vw auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+table {
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+}
